@@ -1,0 +1,36 @@
+*{
+    background-color: #663340;
+}
+
+#menu > ul > li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+    text-align: center;
+    
+}
+
+ul > li> a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    padding: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+   
+}
+
+ul > li> a:hover{
+    background-color: #A8888D;
+    font-size: 14px;
+   
+
+}
+
+h1{
+    font-family: 'Bad Script', cursive;
+}
+
+p{
+    color: #D29D87;
+}
