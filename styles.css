@@ -1,31 +1,51 @@
-*{
-    background-color: #663340;
+
+#header{
+    background-image: url("https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=499&q=80");
+    background-repeat: no-repeat;
+    display: flex;
+    
+    width: 360px;
+    height: 640px;
+}
+#banner{
+    padding: 15px;
+    /* justify-content: center;
+    text-align: center; */
 }
 
+.socialmedia > li {
+    flex-direction: row;
+        list-style: none;
+        color:white;
+        padding: 10px;
+        margin: 10px;
+        text-transform: uppercase;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 1px solid #FFFFFF;
+        width: 10px;
+        height: 10px;       
+
+}
 #menu > ul > li{
     display: flex;
     list-style: none;
-    margin: 15px;
-    text-align: center;
-    list-style: center;
-
-    
+    margin: 10px;
+  
+  
 }
 
-ul > li> a{
-    flex-flow: row wrap;
-    
+#menu > ul > li> a{
     text-decoration: none;
     text-align: center;
     color:white;
-    padding: 15px;
-    font-size: 12px;
+    padding: 10px;
     text-transform: uppercase;
     background-color: transparent;
-    border-radius: 10%;
+    border-radius: 20%;
     border: 1px solid #FFFFFF;
-    width: 70px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     
    
    
@@ -39,10 +59,12 @@ ul > li> a:hover{
 }
 
 h1{
-    font-family: 'Bad Script', cursive;
+    font-family: 'Advent Pro', sans-serif;
+    font-size-adjust: initial;
     color: white;
+    font-weight: lighter;
 }
 
 p{
-    color: #D29D87;
+    color: white;
 }
