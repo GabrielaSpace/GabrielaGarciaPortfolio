@@ -7,12 +7,14 @@
     list-style: none;
     margin: 15px;
     text-align: center;
+    list-style: center;
+
     
 }
 
 ul > li> a{
     flex-flow: row wrap;
-
+    
     text-decoration: none;
     text-align: center;
     color:white;
@@ -22,6 +24,8 @@ ul > li> a{
     background-color: transparent;
     border-radius: 10%;
     border: 1px solid #FFFFFF;
+    width: 70px;
+    height: 15px;
     
    
    
