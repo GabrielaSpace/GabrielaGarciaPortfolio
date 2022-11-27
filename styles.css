@@ -5,12 +5,12 @@
     display: flex;  
     width: 360px;
     height: 640px;
-    padding-top: 90px;
-    padding-bottom: 100px;
+  
 }
 #banner{
-    padding: 15px; 
+    padding: 170px 15px 70px  15px;
     align-items: center;
+   
 }
 
 
@@ -31,6 +31,8 @@
     border: 1px solid #FFFFFF;
     width: 10px;
     height: 10px;
+    width: 30px;
+    height: 30px;
         
 }
 .socialmedia > li > a{
@@ -45,7 +47,7 @@
 }
 
 #menu > ul > li> a{
-    text-decoration: none;
+
     text-align: center;
     color:white;
     padding: 10px;
