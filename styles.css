@@ -17,6 +17,7 @@
 
 #socialmedia{
     padding: 2px;
+    color: #FFFFFF;
     
 
 }
@@ -25,22 +26,23 @@
     display: inline-block;
     list-style: none;
     text-align: center;
-    color:white;
     padding: 2px;
     margin: 0px 5px;
     text-transform: uppercase;
-    background-color: transparent;
     border-radius: 50%;
-    border: 1px solid transparent;
+    border: 1px solid #FFFFFF;
     width: 30px;
     height: 30px;
     line-height: 30px;
+    background: transparent;
+    font-size: 24px;
+     
         
 }
 .socialmedia > li > a{
 
    justify-items: flex-start;
-    
+
 }
 #menu > ul > li{
     display: flex;
