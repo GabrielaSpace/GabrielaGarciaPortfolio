@@ -1,14 +1,14 @@
 
 #header{
-    background-image: url("https://images.unsplash.com/photo-1481560570887-413197fba9fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1629&q=80");
+    background-image: url(/assets/gabriela4.jfif);
+    background-attachment:local;
     background-repeat: no-repeat;
     display: flex;  
     width: 360px;
     height: 640px;
-  
-}
+  }
 #banner{
-    padding: 180px 15px 70px  15px;
+    padding: 220px 15px 70px  15px;
     align-items: center;
    
 }
@@ -19,6 +19,7 @@
     padding: 2px;
     color: #FFFFFF;
     
+    
 
 }
 
@@ -26,28 +27,36 @@
     display: inline-block;
     list-style: none;
     text-align: center;
-    padding: 2px;
+    padding: 3px;
     margin: 0px 5px;
     text-transform: uppercase;
     border-radius: 50%;
-    border: 1px solid #FFFFFF;
+    border: 1px solid white;
     width: 30px;
     height: 30px;
     line-height: 30px;
-    background: transparent;
-    font-size: 24px;
-     
         
 }
-.socialmedia > li > a{
-
-   justify-items: flex-start;
-
+#socialmedia > li > a{
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 24px;
+    border-radius: 50%;
+    justify-items: flex-start;
+    
+   
 }
+ul #socialmedia > li> a:hover{
+    
+    background-color: rgba(85, 75, 75, 0.046);
+    font-size: 30px;
+}
+
+
 #menu > ul > li{
     display: flex;
     margin: 10px;
-  
+ 
   
 }
 
@@ -70,10 +79,7 @@
 
 ul > li> a:hover{
     transform: translateY(-2px) scale(1.10);
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .6);
-   
-   
-   
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, .6);
 
 }
 
