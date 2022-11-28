@@ -121,7 +121,7 @@ p{
 section .nav > nav{
     grid-column: 1/2;
     grid-row: 1/5;
-    border: 4px solid rgb(185, 55, 85);
+    border: 4px solid rgb(15, 14, 14);
 }
 
 nav #menu2> ul> li {
