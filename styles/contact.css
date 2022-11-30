@@ -1,21 +1,11 @@
 body{
     background-image: url(/assets/gabriela4.jfif);
-    background-repeat:repeat-x;
+    background-size: auto;
+    background-attachment:local;
+    background-repeat:repeat;
+    justify-content: center;
+    text-align: center;
     
-   
-}
-#header{
-   
-    display: grid; 
-    grid-template-columns: 7fr 1fr;
-    grid-gap:2px;
-
-
-  }
-#banner{
-    flex-flow: row wrap;
-    padding: 270px 15px 40px 15px;
-    align-items: center;
    
 }
 
@@ -90,6 +80,9 @@ h1{
     color: white;
     font-weight: lighter;
 }
+h2{
+    color: #ffdfdf;
+}
 
 p{
     color: white;
@@ -101,4 +94,105 @@ p{
 }
 
 
+footer{
+    height: 30px;
+    background-color: rgba(218, 190, 213, 0.699);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+label {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: small;   
+}
+
+form{
+    background-color: #c5aeae2f;
+    border-radius: 5%;
+    padding: 10px;
+}
 

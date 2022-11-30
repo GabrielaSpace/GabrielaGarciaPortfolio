@@ -1,21 +1,21 @@
 body{
     background-image: url(/assets/gabriela4.jfif);
-    background-size: auto;
-    background-repeat:repeat;
+
  
    
 }
 
-
 #content3 {
-    border: 1px solid blue;
+    /* display: flex; */
+    border: 1px solid rgba(223, 223, 223, 0.219);
     width: 100%;
     height: auto;   
+    /* display: grid; */
     overflow: hidden;
-    border: 1px solid black;
     border-collapse: collapse;
     font-family: arial;
     align-items: center;
+    border-radius: 2%;
     
     
 }
@@ -24,44 +24,47 @@ article{
     align-items: center;
     padding: 10px;
     justify-content: center;
+    width: 100%;
+    height: auto;
     background-color: rgba(209, 200, 208, 0.363);
-    border-radius: 7%;
-    padding: 20px;
-
+    border-radius: 5%;
+    margin: 10px;
+   
 }
 div{
-    padding: 10px;
-    color: rgb(241, 224, 238);
+    flex-flow: column wrap;
+    text-align: center;
+    padding: auto;
 }
-
-
 .imagenes3{
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center; 
     padding: 10px;
     margin: 10px;
-    text-align: center;
     
 }
 .img3{
-    width: 220px;
+    width: 190px;
     height: 180px;
-    border-radius: 10%; 
-    padding: auto;
+    border-radius: 10%;
+    margin: 10px; 
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
 }
-
 
 .videos{
     flex-flow: row wrap;
     grid-gap:10px;
     text-align: center;
+    
 }
 
 .videos video{
     display: block;
     width:100%;
     height: auto;
+    border-radius: 5%;
 }
 .musica{
     flex-flow: row wrap;
@@ -78,4 +81,33 @@ div{
  iframe{
     width: 220px;
     height: 120px;
+    border-radius: 5%;
  }
+
+ h1{
+    font-family: 'Advent Pro', sans-serif;
+
+    color: white;
+    font-weight: lighter;
+}
+h2,h3{
+    color: #ffdfdf;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+
+
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: rgba(218, 190, 213, 0.699);
+    
+}
