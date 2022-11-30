@@ -1,10 +1,10 @@
 body{
-    /* background-image: url(/assets/gabriela4.jfif); */
-    background-color: #3C131F;
-    /* background-size: 600px 100vh; */
+    background-image: url(/assets/gabriela4.jfif);
+    background-size: auto;
     background-attachment:local;
-    background-repeat: no-repeat;
-
+    background-repeat:repeat;
+    display: flex;  
+   
 }
 #header{
    
@@ -169,8 +169,8 @@ nav #menu2> ul> li {
 
 }
 
-h2, h3{
-    color: #FFFFFF;
+h2, h3, h4{
+    color: #e6d1d1;
 }
 section #aboutme{
     grid-column: 2/4;
@@ -235,3 +235,18 @@ article #skills{
 /* CSS Resume */
 /* CSS Projects */
 /* CSS Contact me */
+
+
+
+label {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: small;
+    
+}
+form{
+    background-color: #c5aeae2f;
+    border-radius: 5%;
+    padding: 10px;
+}
+
