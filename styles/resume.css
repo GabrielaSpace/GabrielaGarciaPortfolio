@@ -1,0 +1,76 @@
+body{
+    background-image: url(/assets/gabriela4.jfif);
+    background-size: auto;
+    background-attachment:local;
+    background-repeat:repeat;
+   
+}
+
+header, .hero, .content, .sidebar, footer {
+    border: 3px solid white;
+    padding: 15px;
+}
+
+header{
+    background-color: #03A9F4;
+    
+}
+
+.hero {
+    background-color: red;
+    
+}
+
+.contentsidebar {
+    background-color: green;
+}
+
+.sidebar {
+    background-color: purple;
+    
+}
+
+footer {
+    background-color: darkgray;
+    
+}
+
+  /* Tablet */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+.contentsidebar {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+}
+
+.content {
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+}
+}
+
+ /* Escritorio */
+
+@media screen and (min-width:1025px) {
+    
+    .herocontentsidebar {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+   
+    .contentsidebar {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .content {
+        width: 75%;
+    }
+    
+    .sidebar {
+        width: 25%;
+    }}

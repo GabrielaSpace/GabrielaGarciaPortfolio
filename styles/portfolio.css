@@ -1,44 +1,59 @@
+body{
+    background-image: url(/assets/gabriela4.jfif);
+    background-size: auto;
+    background-repeat:repeat;
+ 
+   
+}
+
 
 #content3 {
-    box-shadow: 10px 10px 10px black;
-    margin: 10px;
-    padding: 10px;
     border: 1px solid blue;
     width: 100%;
     height: auto;   
-    display: grid;
     overflow: hidden;
     border: 1px solid black;
     border-collapse: collapse;
     font-family: arial;
-    
-    
-
-}
-
-.imagenes3{
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap:10px;
-    justify-content: space-around;
     align-items: center;
     
     
 }
-.photo3 img .img3{
-    display: block;
-    width:100%;
-    height: auto;
+article{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgba(209, 200, 208, 0.363);
+    border-radius: 7%;
+    padding: 20px;
+
+}
+div{
+    padding: 10px;
+    color: rgb(241, 224, 238);
 }
 
 
-
-.videos{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.imagenes3{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
     padding: 10px;
     margin: 10px;
+    text-align: center;
+    
+}
+.img3{
+    width: 220px;
+    height: 180px;
+    border-radius: 10%; 
+    padding: auto;
+}
+
+
+.videos{
+    flex-flow: row wrap;
     grid-gap:10px;
     text-align: center;
 }
@@ -49,6 +64,7 @@
     height: auto;
 }
 .musica{
+    flex-flow: row wrap;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     text-align: center;
@@ -59,3 +75,7 @@
     grid-gap:10px;
    
 }
+ iframe{
+    width: 220px;
+    height: 120px;
+ }
