@@ -1,0 +1,61 @@
+
+#content3 {
+    box-shadow: 10px 10px 10px black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+    width: 100%;
+    height: auto;   
+    display: grid;
+    overflow: hidden;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: arial;
+    
+    
+
+}
+
+.imagenes3{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap:10px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.photo3 img .img3{
+    display: block;
+    width:100%;
+    height: auto;
+}
+
+
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    margin: 10px;
+    grid-gap:10px;
+    text-align: center;
+}
+
+.videos video{
+    display: block;
+    width:100%;
+    height: auto;
+}
+.musica{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+.musica audio{
+    padding: 10px;
+    margin: 10px;
+    grid-gap:10px;
+   
+}
