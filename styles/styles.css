@@ -279,18 +279,15 @@ label{
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
     #form{
-        padding: 30%s;
-        margin: 30%;
+        padding:15px 20%;
+        margin: 10%;
     }
 }
 
 @media screen and (min-width:1025px) {
-    .projects{
-        display: flex;
-        padding: 15px;
+    #form{
+        padding:15px 20%;
+        margin: 10%;
     }
-    .project{
-        flex-flow: row wrap;
-    }  
 }
 
